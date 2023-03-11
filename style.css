@@ -62,7 +62,7 @@ nav ul li a:hover{
 }
 
 .btn:hover{
-    transform: scale(1.4);
+    transform: scale(1.25);
 }
 
 .content{
@@ -75,7 +75,7 @@ nav ul li a:hover{
 h1{
     color: white;
     margin: 20px 0px 20px;
-    font-size: 60px;
+    font-size: 65px;
 }
 
 h3{
@@ -85,7 +85,43 @@ h3{
 }
 
 h4{
-    color: darkorchid;
+    color: white;
     letter-spacing: 2px;
     font-size: 20px;
+}
+
+span#emoji{
+    color: chartreuse;
+}
+
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position:relative;
+}
+
+.newsletter form input:first-child{
+    display:inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid darkmagenta;
+    outline: none;
+    border-radius: 30px;
+}
+
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: darkmagenta;
+    color: white;
+    top: 6px;
+    right: 6px;
+}
+
+input#submit:hover{
+    box-shadow: 0px 0px 10px black, 0px 0px 8px grey;
 }
