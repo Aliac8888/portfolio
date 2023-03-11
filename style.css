@@ -7,8 +7,8 @@
 .hero{
     height: 100vh;
     width:100%;
-    background-image: url("./images/Cyberpunk2077.jpg");
-    background-size: cover;
+    background-image: url("./images/astronaut cute.jpg");
+    background-size: 90%;
     background-position: center;
 }
 
@@ -30,4 +30,62 @@ nav{
 
 span{
     color:darkmagenta;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration:none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color:darkmagenta;
+    transition: .4s;
+}
+
+.btn{
+    background-color:darkmagenta ;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 45px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.4);
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform:translateY(-50%)
+}
+
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 60px;
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4{
+    color: darkorchid;
+    letter-spacing: 2px;
+    font-size: 20px;
 }
