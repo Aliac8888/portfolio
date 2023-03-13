@@ -6,11 +6,11 @@
 }
 
 .hero{
-    height: 100vh;
+    height: 115vh;
     width:100%;
     background-image: url("./images/astronaut cute.jpg");
-    background-size: 90%;
-    background-position: center;
+    background-size: cover;
+    background-position:fixed;
 }
 
 nav{
@@ -97,7 +97,7 @@ h4{
 }
 
 span#emoji{
-    color: chartreuse;
+    color: rgb(111, 196, 27);
 }
 
 .newsletter form{
@@ -131,4 +131,48 @@ span#emoji{
 
 input#submit:hover{
     box-shadow: 0px 0px 10px black, 0px 0px 8px grey;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(14, 14, 49);
+}
+
+.about img{
+    height:auto;
+    width: 430px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color:white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.about-text p{
+    color:rgba(128, 255, 0, 0.671);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
 }
