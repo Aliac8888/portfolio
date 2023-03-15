@@ -176,3 +176,87 @@ input#submit:hover{
     line-height: 28px;
     font-size: 18px;
 }
+
+.service{
+    background-color:rgb(27, 27, 27);
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: rgb(78, 78, 78);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 15px 0px;
+    color: darkmagenta;
+}
+
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 14px;
+}
+
+h5#support{
+    width: 280px;
+    
+}
+
+.pra p{
+    color: black;
+    font-size: 17px;
+    list-style: 27px;
+    margin-bottom: 16px;
+}
+
+.pra p#wd{
+    margin-bottom: 102px;
+}
+
+.pra p#sam{
+    margin-bottom: 32px;
+}
+
+.card .button{
+    text-decoration: none;
+    border: 3px solid transparent;
+    background-color: darkmagenta;
+    color: white;
+    font-weight: bold;
+    padding: 4px 14px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card .button:hover{
+    background-color: transparent;
+    border: 3px solid darkmagenta;
+    cursor: pointer;
+}
