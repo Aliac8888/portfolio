@@ -350,23 +350,12 @@ footer{
 .progress-bar{
     border-radius: 20px;
     border: 1px solid black;
-    animation: animate-positive 2s;
+    animation: animate-positive 2.5s;
 }
 
 .progress-value{
-    width: 65px;
     height: 25px;
     line-height: 25px;
-    background-color: #171b3c;
-    font-size: 15px;
-    color: white;
-    border-radius: 0 0 15px 15px;
-    border: 1px solid black;
-    border-top: none;
-    box-shadow: 0 2px 2px #4f4c4c;
-    position: relative;
-    bottom: -25px;
-    right: -800px;
 }
 
 .progress-value,.progress-title h3:hover{
