@@ -136,7 +136,7 @@ input#submit:hover{
 
 .about{
     width: 100%;
-    padding: 100px 0px;
+    padding: 150px 0px;
     background-color: rgb(14, 14, 49);
 }
 
@@ -182,7 +182,7 @@ input#submit:hover{
 .service{
     background-color:rgb(27, 27, 27);
     width: 100%;
-    padding: 50px 0px;
+    padding: 70px 0px;
 }
 
 .title h2{
@@ -315,8 +315,7 @@ footer{
 
 .skill-progress-bar{
     margin: 0;
-    padding: 40px 0 85px;
-
+    padding: 40px 0 180px;
     place-items: center;
     background-color: rgb(14, 14, 49);
     width: 100%;
@@ -326,12 +325,56 @@ footer{
 .progress-title{
     width: 100%;
     height: auto;
-    padding-left: 170px;
+    padding-left: 190px;
 }
 
 .progress-title h3{
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     color: white;
-    margin:10px 0px 20px;
+    margin:14px 0px 20px 10px;
+}
+
+.progress{
+    width: 80%;
+    height: 25px;
+    background-color: #171b3c;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 0 2px 2px #4f4c4c;
+    overflow: visible;
+    position: relative;
+    text-align: center;
+}
+
+.progress-bar{
+    border-radius: 20px;
+    border: 1px solid black;
+    animation: animate-positive 2s;
+}
+
+.progress-value{
+    width: 65px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #171b3c;
+    font-size: 15px;
+    color: white;
+    border-radius: 0 0 15px 15px;
+    border: 1px solid black;
+    border-top: none;
+    box-shadow: 0 2px 2px #4f4c4c;
+    position: relative;
+    bottom: -25px;
+    right: -800px;
+}
+
+.progress-value,.progress-title h3:hover{
+    cursor: pointer;
+}
+
+@keyframes animate-positive{
+    0%{
+        width: 0;
+    }
 }
