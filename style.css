@@ -242,6 +242,10 @@ h5#support{
     margin-bottom: 102px;
 }
 
+.pra p#webdev{
+    margin-bottom: 36px;
+}
+
 .pra p#sam{
     margin-bottom: 32px;
 }
@@ -313,6 +317,8 @@ footer{
     font-size: 14px;
 }
 
+/* footer ended */
+
 .skill-progress-bar{
     margin: 0;
     padding: 40px 0 180px;
@@ -367,3 +373,5 @@ footer{
         width: 0;
     }
 }
+
+/* progress bar ended */
