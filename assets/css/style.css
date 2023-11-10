@@ -5,12 +5,16 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .hero{
     height: 115vh;
     width:100%;
-    background-image: url("./images/astronaut cute.jpg");
+    background-image: url("../images/astronaut_cute.jpg");
     background-size: cover;
-    background-position:fixed;
+    background-position: center;
 }
 
 nav{
@@ -27,7 +31,7 @@ nav{
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
-    transition: .5s;
+    transition: .4s;
 }
 
 .logo:hover{
@@ -68,7 +72,7 @@ nav ul li a:hover{
 }
 
 .btn:hover{
-    transform: scale(1.25); 
+    transform: scale(1.25);
 }
 
 .content{
@@ -228,13 +232,13 @@ h5{
 
 h5#support{
     width: 280px;
-    
+
 }
 
 .pra p{
     color: black;
     font-size: 17px;
-    list-style: 27px;
+    list-style: disc;
     margin-bottom: 16px;
 }
 
@@ -304,7 +308,6 @@ footer{
     width: 100%;
     height: 100px;
     background-color:rgb(27, 27, 27);
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -338,14 +341,14 @@ footer{
     font-size: 24px;
     font-weight: bold;
     color: white;
-    margin:14px 0px 20px 10px;
+    margin:14px 0 20px 10px;
 }
 
 .progress{
     width: 80%;
     height: 25px;
     background-color: #171b3c;
-    border-radius: 20px;
+    border-radius: 50%;
     border: 2px solid black;
     box-shadow: 0 2px 2px #4f4c4c;
     overflow: visible;
